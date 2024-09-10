@@ -1,0 +1,77 @@
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+.myBlock{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.myWrap{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+
+.myUl{
+    width:100%;
+}
+
+.myLiText::before{
+    content:'';
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    background-color: grey;
+    display:inline-block;
+}
+
+.myLiText{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:5px;
+}
+
+
+.myLi{
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+    gap:20px;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    color: grey;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover {
+    border-color: #646cff;
+    color:#646cff;
+}
